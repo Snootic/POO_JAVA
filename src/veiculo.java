@@ -5,10 +5,11 @@ public class veiculo {
     public int velocidade = 0;
 
     public void acelerar(int vel_entrada){
-        velocidade = velocidade +1;
+        int v = 0;
+        velocidade = velocidade +vel_entrada;
     }
     public void reduzir(int vel_entrada){
-        velocidade = velocidade-1;
+        velocidade = velocidade-vel_entrada;
     }
     public void buzinar(){
         System.out.println("BIBIBIBIBIBIBIBIBIBIBIBIBIBIBIBIBIIBIBI");
