@@ -6,6 +6,7 @@ public class App {
         car.modelo = "monza";
         car.buzinar();
 
-        System.out.println("A velocidade é " + car.velocidade);
+        int velocidade = car.acelerar(100, 150);
+        System.out.println("A velocidade é " + velocidade);
     }
 }

@@ -4,14 +4,15 @@ public class veiculo {
     String modelo;
     public int velocidade = 0;
 
-    public void acelerar(int vel_entrada){
+    public int acelerar(int vel_entrada1, int vel_entrada2){
         int v = 0;
-        velocidade = velocidade +vel_entrada;
+        velocidade = vel_entrada1 +vel_entrada2;
+        return velocidade;
     }
     public void reduzir(int vel_entrada){
         velocidade = velocidade-vel_entrada;
     }
     public void buzinar(){
-        System.out.println("BIBIBIBIBIBIBIBIBIBIBIBIBIBIBIBIBIIBIBI");
+        System.out.println("BIIBIBIBIBIBIBIBIIBIBI");
     }
 }
