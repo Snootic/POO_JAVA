@@ -7,7 +7,7 @@ public class veiculo {
     public void acelerar(int vel_entrada){
         velocidade = velocidade +1;
     }
-    public void reduzir(){
+    public void reduzir(int vel_entrada){
         velocidade = velocidade-1;
     }
     public void buzinar(){
