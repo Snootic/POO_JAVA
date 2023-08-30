@@ -4,7 +4,7 @@ public class veiculo {
     String modelo;
     public int velocidade = 0;
 
-    public void acelerar(){
+    public void acelerar(int vel_entrada){
         velocidade = velocidade +1;
     }
     public void reduzir(){
